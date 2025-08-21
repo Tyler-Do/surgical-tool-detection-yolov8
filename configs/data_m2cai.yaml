@@ -1,14 +1,8 @@
 # COCO/YOLO-style dataset config for m2cai16-tool-locations
-path: /content/data/m2cai16          # Colab path after download
-train: images/train
-val: images/val
-test: images/test
-names:
-  0: tool_1
-  1: tool_2
-  2: tool_3
-  3: tool_4
-  4: tool_5
-  5: tool_6
-  6: tool_7
+train: /content/drive/MyDrive/yolov8_train/m2cai16-tool-locations_YOLO/train
+test: /content/drive/MyDrive/yolov8_train/m2cai16-tool-locations_YOLO/test
+val: /content/drive/MyDrive/yolov8_train/m2cai16-tool-locations_YOLO/val
+
+nc: 7
+names: ['Grasper','Bipolar','Hook','Scissors','Clipper','Irrigator','Specimen Bag']
 
