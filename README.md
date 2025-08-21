@@ -80,3 +80,5 @@ If you use this repository, please cite our paper:
   doi       = {10.5281/zenodo.1234567}
 }
 ```
+Contact: thaikd@vnu.edu.vn (Corresponding Author)
+Funding: Vietnam National University, Hanoi (Project QG.24.63)
