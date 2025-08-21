@@ -1,8 +1,6 @@
-path: /content/data/surgical_tools
-train: images/train
-val: images/val
-names:
-  0: class_1
-  1: class_2
-  # ...
+train: /content/drive/MyDrive/yolov8_train/Surgical Tools/train
+val: /content/drive/MyDrive/yolov8_train/Surgical Tools/valid
+test: /content/drive/MyDrive/yolov8_train/Surgical Tools/test
 
+nc: 18
+names: ['7 Metzenbaum Scissors', '8 Babcock Tissue Forceps', '8 Mayo Needle Holder', '8', '9 Metzenbaum Scissors', '9', 'Allis Tissue Forceps', 'Babcock Tissue Forceps', 'Crile Artery Forceps', 'Curved Mayo Scissors', 'DeBakey Dissector', 'Dressing Scissors', 'Gillies Toothed Dissector', 'Lahey Forceps', 'Mayo Needle Holder', 'No.3 BP Handle', 'No.4 BP Handle', 'Sponge Forceps']
