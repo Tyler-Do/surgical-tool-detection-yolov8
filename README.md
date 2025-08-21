@@ -72,7 +72,7 @@ python train.py --config configs/data_surgical_tools.yaml --model model3
 If you use this repository, please cite our paper:
 
 ```bibtex
-@article{nguyen2025surgical,
+@article{do2025surgical,
   title     = {Lightweight YOLOv8 Variants for Enhanced Real-Time Surgical Tool Detection},
   author    = {Tuan Do, Thai Kim},
   journal   = {PeerJ Computer Science},
