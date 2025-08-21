@@ -14,17 +14,17 @@ surgical-tool-detection-yolov8/
 │  └─ data_surgical_tools.yaml
 ├─ models/
 │  ├─ model1/            # +G + SC3T + C2f-Ghost (ví dụ)
-│  │  ├─ config.yaml
-│  │  ├─ train_colab.ipynb
-│  │  └─ README.md
+│  │  ├─ ultralytics
+│  │  ├─ README.md
+│  │
 │  ├─ model2/            # model1 + CAM + CBAM
-│  │  ├─ config.yaml
-│  │  ├─ train_colab.ipynb
-│  │  └─ README.md
+│  │  ├─ ultralytics
+│  │  ├─ README.md
+│  │  
 │  └─ model3/            # +G + SC3T + CBAM (best)
-│     ├─ config.yaml
-│     ├─ train_colab.ipynb
-│     └─ README.md
+│     ├─ ultralytics
+│     ├─ README.md
+│    
 └─ .gitignore
 
 ## Run in Colab
