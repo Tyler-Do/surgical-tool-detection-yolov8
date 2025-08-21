@@ -27,7 +27,5 @@ surgical-tool-detection-yolov8/
 │    
 └─ .gitignore
 
-## Run in Colab
-- Model 1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/surgical-tool-detection-yolov8/blob/main/models/model1/train_colab.ipynb)
-- Model 2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/surgical-tool-detection-yolov8/blob/main/models/model2/train_colab.ipynb)
-- Model 3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/surgical-tool-detection-yolov8/blob/main/models/model3/train_colab.ipynb)
+## Guidance for Training Yolov8_Transformer.ipynb
+--https://colab.research.google.com/drive/1W6aJbrVoVKeqEHPcdncOmVnV4aM4Mf7j?usp=sharing
