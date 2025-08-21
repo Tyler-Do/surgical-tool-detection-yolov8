@@ -1,9 +1,13 @@
 # surgical-tool-detection-yolov8
-Code &amp; scripts for "Lightweight YOLOv8 Variants for Enhanced Real-Time Surgical Tool Detection" (PeerJ Computer Science)
 
-## Repository structure
+Code & scripts for **"Lightweight YOLOv8 Variants for Enhanced Real-Time Surgical Tool Detection"**  
+(*PeerJ Computer Science, 2025*)  
+
+---
+
+## 1. Repository structure
 <details>
-<summary>Click to view the folder tree </summary>
+<summary>Click to expand the folder tree</summary>
 
 ```text
 surgical-tool-detection-yolov8/
@@ -13,32 +17,36 @@ surgical-tool-detection-yolov8/
 │  ├─ data_m2cai.yaml
 │  └─ data_surgical_tools.yaml
 ├─ models/
-│  ├─ model1/            # +G + SC3T + C2f-Ghost (ví dụ)
-│  │  ├─ ultralytics
-│  │  ├─ README.md
+│  ├─ model1/            # +G + SC3T + C2f-Ghost (example)
+│  │  ├─ ultralytics/
+│  │  └─ README.md
 │  │
 │  ├─ model2/            # model1 + CAM + CBAM
-│  │  ├─ ultralytics
-│  │  ├─ README.md
+│  │  ├─ ultralytics/
+│  │  └─ README.md
 │  │  
 │  └─ model3/            # +G + SC3T + CBAM (best)
-│     ├─ ultralytics
-│     ├─ README.md
+│     ├─ ultralytics/
+│     └─ README.md
 │    
 └─ .gitignore
-
-### Guidance for Training Yolov8_Transformer.ipynb
---https://colab.research.google.com/drive/1W6aJbrVoVKeqEHPcdncOmVnV4aM4Mf7j?usp=sharing
-
-## Citation
 <details>
-<summary>If you use this code, please cite: </summary>
-```text
-@article{<KEY2025>,
-  title   = {Lightweight YOLOv8 Variants for Enhanced Real-Time Surgical Tool Detection},
-  author  = {<Tuan Do>},
-  journal = {PeerJ Computer Science},
-  year    = {2025},
-  doi     = {<PAPER_DOI>}
-}
+## 2. Guidance for Training (Yolov8_Transformer.ipynb)
 
+For a step-by-step training example, please refer to the Colab notebook:  
+👉 [**Open in Google Colab**](https://colab.research.google.com/drive/1W6aJbrVoVKeqEHPcdncOmVnV4aM4Mf7j?usp=sharing)
+
+---
+
+## 3. 📑 Citation
+
+If you use this repository, please cite our paper:
+
+```bibtex
+@article{nguyen2025surgical,
+  title     = {Lightweight YOLOv8 Variants for Enhanced Real-Time Surgical Tool Detection},
+  author    = {Nguyen, Van A and ...},
+  journal   = {PeerJ Computer Science},
+  year      = {2025},
+  doi       = {10.5281/zenodo.1234567}
+}
