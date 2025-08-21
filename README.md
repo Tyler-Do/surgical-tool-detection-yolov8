@@ -1,11 +1,12 @@
 # surgical-tool-detection-yolov8
 
 Code & scripts for **"Lightweight YOLOv8 Variants for Enhanced Real-Time Surgical Tool Detection"**  
-(*PeerJ Computer Science, 2025*)  
+(*PeerJ Computer Science, 2025*)
 
 ---
 
-## 1. Repository structure
+## 1. Repository Structure
+
 <details>
 <summary>Click to expand the folder tree</summary>
 
@@ -30,15 +31,43 @@ surgical-tool-detection-yolov8/
 │     └─ README.md
 │    
 └─ .gitignore
-<details>
-## 2. Guidance for Training (Yolov8_Transformer.ipynb)
+```
 
-For a step-by-step training example, please refer to the Colab notebook:  
-👉 [**Open in Google Colab**](https://colab.research.google.com/drive/1W6aJbrVoVKeqEHPcdncOmVnV4aM4Mf7j?usp=sharing)
+</details>
 
 ---
 
-## 3. 📑 Citation
+## 2. Installation & Setup
+
+### Requirements
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Dataset Configuration
+Configure your dataset paths in the YAML files:
+- `configs/data_m2cai.yaml` - for M2CAI dataset
+- `configs/data_surgical_tools.yaml` - for surgical tools dataset
+
+---
+
+## 3. Training Guide
+
+For a step-by-step training example, please refer to the Colab notebook:  
+
+👉 [**Open in Google Colab**](https://colab.research.google.com/drive/1W6aJbrVoVKeqEHPcdncOmVnV4aM4Mf7j?usp=sharing)
+
+### Quick Start
+```bash
+# Example training command
+python train.py --config configs/data_surgical_tools.yaml --model model3
+```
+
+---
+
+## 4. Citation
 
 If you use this repository, please cite our paper:
 
@@ -50,3 +79,4 @@ If you use this repository, please cite our paper:
   year      = {2025},
   doi       = {10.5281/zenodo.1234567}
 }
+```
