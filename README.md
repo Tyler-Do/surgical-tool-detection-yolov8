@@ -3,7 +3,7 @@ Code &amp; scripts for "Lightweight YOLOv8 Variants for Enhanced Real-Time Surgi
 
 ## Repository structure
 <details>
-<summary>Click to view the folder tree / Bấm để xem cấu trúc thư mục</summary>
+<summary>Click to view the folder tree </summary>
 
 ```text
 surgical-tool-detection-yolov8/
