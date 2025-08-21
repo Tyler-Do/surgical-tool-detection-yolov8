@@ -74,12 +74,11 @@ If you use this repository, please cite our paper:
 ```bibtex
 @article{nguyen2025surgical,
   title     = {Lightweight YOLOv8 Variants for Enhanced Real-Time Surgical Tool Detection},
-  author    = {Tuan Do},
+  author    = {Tuan Do, Thai Kim},
   journal   = {PeerJ Computer Science},
   year      = {2025},
   doi       = {10.5281/zenodo.1234567}
 }
 ```
-###Contact: thaikd@vnu.edu.vn (Corresponding Author)
-
-###Funding: Vietnam National University, Hanoi (Project QG.24.63)
+**Contact:** thaikd@vnu.edu.vn (Corresponding Author)  
+**Funding:** Vietnam National University, Hanoi (Project QG.24.63)
