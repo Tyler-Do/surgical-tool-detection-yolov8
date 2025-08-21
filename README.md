@@ -29,3 +29,14 @@ surgical-tool-detection-yolov8/
 
 ## Guidance for Training Yolov8_Transformer.ipynb
 --https://colab.research.google.com/drive/1W6aJbrVoVKeqEHPcdncOmVnV4aM4Mf7j?usp=sharing
+
+## Citation
+If you use this code, please cite:
+@article{<KEY2025>,
+  title   = {Lightweight YOLOv8 Variants for Enhanced Real-Time Surgical Tool Detection},
+  author  = {<Tuan Do>},
+  journal = {PeerJ Computer Science},
+  year    = {2025},
+  doi     = {<PAPER_DOI>}
+}
+
